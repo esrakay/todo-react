@@ -1,3 +1,5 @@
+import "../styles/TodoItem.css"
+
 export default function TodoItem({todo, toggleTodoChecked}) {
     return (
         <div className="TodoItem">

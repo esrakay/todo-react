@@ -1,0 +1,10 @@
+.TodoItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.TodoItem > label {
+    padding: 1em 0;
+}
