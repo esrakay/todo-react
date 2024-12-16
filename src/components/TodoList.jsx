@@ -1,4 +1,5 @@
 import TodoItem from "./TodoItem"
+import "../styles/TodoList.css"
 
 export default function TodoList({todoList = [], toggleTodoChecked}) {
     return (
