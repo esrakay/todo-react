@@ -1,0 +1,45 @@
+.Todo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem;
+    box-shadow: 0 0 10px black;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-color: #1E1E1E;
+}
+
+.pagination {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 1rem;
+}
+
+.pagination__button {
+    padding: 1em 1em;
+    border-radius: 50%;
+    border: none;
+    background-color: #BB86FC;
+}
+
+.pagination__button:hover {
+    cursor: pointer;
+}
+
+.page {
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    transform: translate(50%);
+}
+
+.page > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
