@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/TodoForm.css"
 
 export default function TodoForm({addTask}) {
     const [task, setTask] = useState(""); 

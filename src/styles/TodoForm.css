@@ -1,0 +1,15 @@
+.TodoForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TodoForm > button {
+    padding: .75em 1em;
+    background-color: #BB86FC;
+    border: none;
+}
+
+.TodoForm > input[type='text'] {
+    padding: .75em .4em;
+    width: 100%;
+}
